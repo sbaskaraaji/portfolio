@@ -2,20 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply font-primary bg-primary text-whites leading-loose;
   }
-}
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #f2e5bf;
+  }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #fd8b51;
+  }
+  input:-webkit-autofill {
+    background-color: #257180 !important; /* Sesuaikan dengan warna background */
+    -webkit-box-shadow: 0 0 0px 1000px #257180 inset !important;
+    color: #f2e5bf !important;
+    caret-color: #f2e5bf !important;
+    -webkit-text-fill-color: #f2e5bf !important; /* Sesuaikan dengan warna teks */
+    font-family: inherit !important;
+  }
+
+  /* Tambahkan ini jika ingin mempertahankan warna saat input berfokus */
+  input:-webkit-autofill:focus {
+    background-color: bg0 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #257180 inset !important;
+    color: #f2e5bf !important;
+    caret-color: #f2e5bf !important;
+    -webkit-text-fill-color: #f2e5bf !important;
+    font-family: inherit !important;
+  }
 }
