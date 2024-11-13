@@ -63,8 +63,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_eyzz57m", // Your service ID
-        "template_1sxi43p", // Your template ID
+        "service_fekbsji", // Your service ID
+        "template_q1fajwn", // Your template ID
         {
           firstname: formData.firstname,
           lastname: formData.lastname,
@@ -73,7 +73,7 @@ const Contact = () => {
           service: formData.service,
           message: formData.message,
         },
-        "aDoO3UVsqdgmxpmXY" // Your public key
+        "uhGqesBSdTwsgQiFM" // Your public key
       )
       .then((response) => {
         console.log("Success:", response);
