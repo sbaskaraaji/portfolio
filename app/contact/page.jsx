@@ -104,8 +104,8 @@ const Contact = () => {
             >
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-whites/60">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt ea facilis dignissimos odio assumenda quis?
+                Fill these form to reach me out, we can be friend or even
+                better!
               </p>
               {/* inputs */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
