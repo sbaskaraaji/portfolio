@@ -7,8 +7,7 @@ import { SiVirtualbox, SiVmware, SiCisco, SiAnsible } from "react-icons/si";
 // about data
 const about = {
   title: "About me",
-  description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quas architecto autem molestias.",
+  description: "Get to know me better",
   info: [
     {
       fieldName: "Name",
@@ -45,7 +44,7 @@ const about = {
 const experience = {
   icon: "/assets/Me-too.png",
   title: "My Experience",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  description: "I have related experience on infosec field as internship.",
   items: [
     {
       company: "PT Korelasi Persada Indonesia",
@@ -59,7 +58,8 @@ const experience = {
 const education = {
   icon: "/assets/Me-too.png",
   title: "My Education",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  description:
+    "With study focus computer networking, I believe in my knowlede to work further",
   items: [
     {
       institution: "Satya Wacana Christian University",
@@ -72,7 +72,8 @@ const education = {
 // skills data
 const skills = {
   title: "My Skills",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  description:
+    "I have been working with some technologies with more than 60% confidence hands-on of all of them, but web development technologies",
   skillList: [
     {
       icon: <FaUbuntu />,
