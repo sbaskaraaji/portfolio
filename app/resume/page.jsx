@@ -2,7 +2,13 @@
 
 import { FaUbuntu, FaGit, FaReact, FaDocker, FaNode } from "react-icons/fa";
 
-import { SiVirtualbox, SiVmware, SiCisco, SiAnsible } from "react-icons/si";
+import {
+  SiVirtualbox,
+  SiVmware,
+  SiCisco,
+  SiAnsible,
+  SiFortinet,
+} from "react-icons/si";
 
 // about data
 const about = {
@@ -110,6 +116,10 @@ const skills = {
     {
       icon: <SiAnsible />,
       name: "ansible",
+    },
+    {
+      icon: <SiFortinet />,
+      name: "Fortinet",
     },
   ],
 };
