@@ -24,7 +24,7 @@ const projects = [
     category: "Automation Network Configuration",
     title: "project 1",
     description:
-      "Automate Layer 2 and Layer 3 configurations, including VXLAN setup, on a Cisco router and Open vSwitch, with a time completion record of 2 minutes and 14 seconds.",
+      "Automate Layer 2 and Layer 3 configurations, including VXLAN setup, on a Cisco router and Open vSwitch, with a time completion record of 2 minutes and 47 seconds.",
     stack: [
       { name: "Ansible" },
       { name: "Cisco" },
