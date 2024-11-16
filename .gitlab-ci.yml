@@ -1,0 +1,18 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  script:
+    - npm install
+    - npm run build
+
+test:
+  script:
+    - npm test
+
+deploy:
+  stage: deploy
+  script:
+    - rsync -avz ./build/ root@localhost:/var/www/html/
